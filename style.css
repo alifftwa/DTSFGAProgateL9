@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* form section created by Abastian Dwi Saputra */
+.form {
+    text-align: center;
+    background-color: #ffd3d3;
+    padding: 50px 0;
+}
+
+.form h2 {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1366px;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.form-items {
+    margin-top: 30px;
+    display: flex;
+}
+
+.form-item {
+    flex: auto;
+}
+
+.form-left iframe {
+    width: 80%;
+    height: 100%;
+    border: none;
+}
+
+.form-right {
+    padding-right: 50px;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group button {
+    font-family: sans-serif;
+    width: 100%;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, .5);
+    transition: background-color .5s;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 16px;
+    border-radius: 6px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    background-color: #000;
+    color: #fff;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.form-group button {
+    padding: 12px 0;
+    border-radius: 6px;
+    background-color: #f00;
+    color: #fff;
+}
+
+.form-group button:hover {
+    background-color: #f9cc37;
+    color: #000;
+}
+/* end form section */
