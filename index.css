@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-content {
+    height: 750px;
+    background: url("./image/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    color: rgb(44, 170, 170);
+}
+
+.hero-text1 {
+    padding-top: 250px;
+    padding-left: 170px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+    /* text-align: center; */
+}
+
+.hero-text2 {
+    margin-top: 5px;
+    margin-left: 170px;
+    color: rgb(255, 255, 255);
+    font-size: px;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn-daftar {
+    margin-top: 20px;
+    margin-left: 170px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    background-color: rgb(32, 152, 250);
+}
