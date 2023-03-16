@@ -47,3 +47,219 @@ body {
     text-align: center;    
 }
 
+
+
+
+/* FORM */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* form section created by Abastian Dwi Saputra */
+.form {
+    text-align: center;
+    background-color: #ffd3d3;
+    padding: 50px 0;
+}
+
+.form h2 {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1366px;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.form-items {
+    margin-top: 30px;
+    display: flex;
+}
+
+.form-item {
+    flex: auto;
+}
+
+.form-left iframe {
+    width: 80%;
+    height: 100%;
+    border: none;
+}
+
+.form-right {
+    padding-right: 50px;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group button {
+    font-family: sans-serif;
+    width: 100%;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, .5);
+    transition: background-color .5s;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 16px;
+    border-radius: 6px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    background-color: #000;
+    color: #fff;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.form-group button {
+    padding: 12px 0;
+    border-radius: 6px;
+    background-color: #f00;
+    color: #fff;
+}
+
+.form-group button:hover {
+    background-color: #f9cc37;
+    color: #000;
+}
+/* end form section */
+
+
+
+
+
+
+
+/* FOOTER */
+
+* {
+    padding: 0;
+}
+
+.footer {
+    background-color: #fff;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    position: relative;
+    width: 100%;
+    color: #7f8c8d;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+.footer-box {
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-box h4 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 25px;
+    position: relative;
+}
+.footer-box ul li a {
+    margin-bottom: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #535c68;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-box ul li a:hover {
+    padding-left: 8px;
+}
+.footer-box .social a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    color: #535c68;
+}
+
+.fa-facebook:hover {
+    color: #4267B2;
+}
+.fa-twitter:hover {
+    color: #1DA1F2;
+}.fa-instagram:hover {
+    color: #8a3ab9;
+}.fa-youtube:hover {
+    color: #FF0000;
+}
+
+.copyright {
+    max-width: 1170px;
+    margin: auto;
+    border-top: 2px solid #ecf0f1
+}
+.copyright p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+@media (max-width: 1000px) {
+    .box {
+        padding: 30px;
+    }
+    .footer-box {
+        width: 50%;
+        padding-bottom: 20px;
+    }
+    .copyright p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 670px) {
+    .box {
+        padding: 15px;
+    }
+    .footer-box {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-box h4 {
+        margin-bottom: 5px;
+    }
+    .social {
+        padding-top: 5px;
+    }
+    .copyright p {
+        font-size: 12px;
+    }
+}
+
+
