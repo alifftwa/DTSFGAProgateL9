@@ -48,9 +48,7 @@
     margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
-    border-radius: 50%;
     color: #535c68;
-    transition: all 0.5s ease;
 }
 
 .fa-facebook:hover {
@@ -98,6 +96,9 @@
     }
     .footer-box h4 {
         margin-bottom: 5px;
+    }
+    .social {
+        padding-top: 5px;
     }
     .copyright p {
         font-size: 12px;
