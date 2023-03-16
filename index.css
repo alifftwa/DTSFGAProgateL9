@@ -17,7 +17,7 @@ body {
     color: rgb(255, 255, 255);
     font-size: 50px;
     font-weight: bold;
-    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
     /* text-align: center; */
 }
 
@@ -26,7 +26,7 @@ body {
     margin-left: 170px;
     color: rgb(255, 255, 255);
     font-size: px;
-    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 .btn-daftar {
@@ -42,3 +42,8 @@ body {
     opacity: 0.8;
     background-color: rgb(32, 152, 250);
 }
+
+.header {
+    text-align: center;    
+}
+
